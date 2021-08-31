@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">Nhập họ và tên</string>
+    <string name="Dk">Đăng ký tài khoản</string>
+    <string name="Mail">Nhập mail</string>
+    <string name="Pass">Nhập mật khẩu</string>
+    <string name="RPass">Nhập lại mật khẩu</string>
+    <string name="btnDk">Đăng ký</string>
+    <string-array name="math">
+        <item>Cộng</item>
+        <item>Trừ</item>
+        <item>Nhân</item>
+        <item>Chia</item>
+    </string-array>
+</resources>

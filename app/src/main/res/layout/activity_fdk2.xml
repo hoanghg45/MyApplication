@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fDk2"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký tài khoản 2/2"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#EC0202"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtFn"
+        android:hint="Full name"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAdd"
+        android:hint="Address"
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPhone"
+        android:hint="Phone number"
+
+    />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMail"
+        android:hint="Email"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        app:backgroundTint="@null"
+        android:background="#03A9F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiếp theo"
+        android:id="@+id/btnNext"
+        android:layout_margin="20dp"/>
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
+        app:backgroundTint="@null"
+        android:background="#97D5DD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnBack"
+        android:layout_margin="20dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

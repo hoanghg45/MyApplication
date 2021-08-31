@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fPass"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thay đổi mật khẩu"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#C34138"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:hint="Mật khẩu cũ"
+        android:password="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtOPass"
+        android:textSize="20sp"/>
+    <EditText
+        android:hint="Mật khẩu mới"
+        android:password="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNPass"
+        android:textSize="20sp"/>
+    <EditText
+        android:password="true"
+        android:hint="Xác nhận mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCoPass"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thay đổi "/>
+</androidx.appcompat.widget.LinearLayoutCompat>

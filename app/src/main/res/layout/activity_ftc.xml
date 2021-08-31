@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fTc"
+    android:layout_margin="15dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trang chủ"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#AE13C8"
+
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtWel"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        app:backgroundTint="@null"
+        android:background="#03A9F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gọi tổng đài"
+        android:id="@+id/btnCall"
+        android:layout_margin="10dp"/>
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        app:backgroundTint="@null"
+        android:background="#97D5DD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mở web"
+        android:id="@+id/btnWeb"
+        android:layout_margin="10dp"/>
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_notes_24"
+        app:backgroundTint="@null"
+        android:background="#ED7C59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú"
+        android:id="@+id/btnNote"
+        android:layout_margin="10dp"/>
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_calculate_24"
+        app:backgroundTint="@null"
+        android:background="#ECCD70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Máy tính"
+        android:id="@+id/btnCal"
+        android:layout_margin="10dp"/>
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_border_color_24"
+        app:backgroundTint="@null"
+        android:background="#AEDD78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thay đổi thông tin"
+        android:id="@+id/btnInfo"
+        android:layout_margin="10dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

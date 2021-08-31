@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food"
+    android:layout_margin="5dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn muốn ăn gì?"
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn món ăn"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#CFA21A"/>
+    <Button
+        android:id="@+id/btnDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn đồ uống"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#E32B1D"/>
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#395A12"/>
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn đã chọn:"
+        android:textColor="#197480"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>

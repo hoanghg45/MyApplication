@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food2"
+    android:layout_margin="5dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn món ăn"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FF0000"
+        />
+    <Button
+        android:id="@+id/btnMq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mì quảng"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#CFA21A"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="1"
+       >
+       <Button
+           android:layout_weight="0.3"
+           android:id="@+id/btnPho"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Phở"
+           android:textSize="30sp"
+           android:layout_marginBottom="30dp"
+           app:backgroundTint="@null"
+           android:background="#4CAF50"
+           android:layout_marginEnd="10dp"/>
+       <Button
+           android:layout_weight="0.7"
+           android:id="@+id/btnHt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Hủ tíu"
+           android:textSize="30sp"
+           android:layout_marginBottom="30dp"
+           app:backgroundTint="@null"
+           android:background="#03A9F4"/>
+
+
+
+   </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btnBb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bún bò"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#FF9800"/>
+    <Button
+
+        android:id="@+id/btnBm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bánh mì"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#FF5722"/>
+    <Button
+
+        android:id="@+id/btnCl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cháo lòng"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@null"
+        android:background="#673AB7"/>
+
+</LinearLayout>
